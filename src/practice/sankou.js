@@ -3,13 +3,13 @@ const name = 'ishida';
 let word = '';
 
 // ifで書いた場合
-// if (name === 'ishida') {
-//   word = '私は石田です。';
-// } else {
-//   word = '私は石田ではありません。';
-// }
+if (name === 'ishida') {
+  word = '私は石田です。';
+} else {
+  word = '私は石田ではありません。';
+}
 
-// console.log(word);
+console.log(word);
 
 word =
   name === 'ishida'
