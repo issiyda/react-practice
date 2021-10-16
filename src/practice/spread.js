@@ -33,6 +33,7 @@ const addTanakaInfo = {
   like: 'fish',
 };
 
+// 同じキーは上書きされるよ！！！
 const tanakaInfo = { ...tanaka, ...addTanakaInfo };
 
 console.log('tanakaInfo', tanakaInfo);
